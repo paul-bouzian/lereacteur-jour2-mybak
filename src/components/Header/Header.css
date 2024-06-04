@@ -1,0 +1,10 @@
+header {
+  background-color: #263338;
+  color: white;
+  height: 12vh;
+  padding: 0 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+}

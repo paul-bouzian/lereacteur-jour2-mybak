@@ -1,0 +1,24 @@
+.white-operation {
+  background-color: #ffffff;
+}
+
+.grey-operation {
+  background-color: #f7f7f7;
+}
+
+.operation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.date-description {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.date-description span {
+  color: #606060;
+  font-size: 0.9rem;
+}
