@@ -3,8 +3,8 @@ import Operation from "./Operation/Operation";
 
 const Account = ({ account }) => {
   const newBalance = account.balance
-    .toFixed(2) // Arrondit à 2 décimales
-    .replace(".", ",") // Remplace le point par une virgule
+    .toFixed(2)
+    .replace(".", ",")
     .replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 
   return (
